@@ -1,0 +1,18 @@
+# Sanal Ortam ve Python Önbelleği
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Gizli API Anahtarları (ÇOK ÖNEMLİ)
+.env
+
+# Yerel Vektör Veritabanı ve Yüklenen Test Dosyaları
+chroma_db/
+data/*
+!data/.gitkeep
+
+# İşletim Sistemi ve IDE Dosyaları
+.DS_Store
+Thumbs.db
+.vscode/
